@@ -4,7 +4,8 @@ $(document).ready( function() {
     // This controls the button for the c note.
     
     // This variable calls the cNote audio element in the HTML.
-    
+    var cNote = document.getElementById('cAudio');
+
     // This turns our <div id= "c"> into a button that plays our audio file when the box is pressed.
     $('#c').mousedown(function(){
         
@@ -17,6 +18,7 @@ $(document).ready( function() {
     
     // This controls the button for the d note.
     
+    var dNote = document.getElementById('dAudio');
     
     $('#d').mousedown(function(){
         dNote.currentTime = 0;
@@ -24,28 +26,53 @@ $(document).ready( function() {
     });
     
     // This controls the button for the e note.
+    var eNote = document.getElementById('eAudio');
     
+    $('#d').mousedown(function(){
+        eNote.currentTime = 0;
+        eNote.play();
+    });
     
     
  
     // This controls the button for the f note.
     
+    var fNote = document.getElementById('fAudio');
     
+    $('#d').mousedown(function(){
+        fNote.currentTime = 0;
+        fNote.play();
+    });
     
     
     // This controls the button for the g note.
     
+    var gNote = document.getElementById('gAudio');
     
+    $('#d').mousedown(function(){
+        gNote.currentTime = 0;
+        gNote.play();
+    });
     
     
     // This controls the button for the a note.
+    var aNote = document.getElementById('aAudio');
     
+    $('#d').mousedown(function(){
+        aNote.currentTime = 0;
+        aNote.play();
+    });
     
     
     
     // This controls the button for the b note.
     
+    var bNote = document.getElementById('bAudio');
     
+    $('#d').mousedown(function(){
+        bNote.currentTime = 0;
+        bNote.play();
+    });
     
     
 });
